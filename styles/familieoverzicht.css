@@ -1,4 +1,6 @@
-/* Vanaf hier begint de code van de verkregen template!  */
+  /*#######################################################*/
+ /* Vanaf hier begint de code van de verkregen template!  */
+/*#######################################################*/
 
 /* Fonts being used by the oba */
 @font-face {
@@ -356,28 +358,52 @@ body.dark .familieoverzicht .text{
     color: var(--text-color);
 }
 
-
-/* Vanaf hier begint mijn eigen code! */
+  /*####################################*/
+ /* Vanaf hier begint mijn eigen code! */
+/*####################################*/
 
 .kinderoverzicht {
     padding: 12px 60px;
 } 
 
-.kinderoverzicht > ul > ul {
-    display: grid;
+.kinderoverzicht > ul {
+    display: flex;
     list-style: none;
-    display: inline-block;
 }
 
-.kinderoverzicht > ul > ul > li {
+.kinderoverzicht > ul > li {
     background-color: #FFF;
     padding: 1em;
     margin: 1em;
-    display: block;
+    max-width: 50%;
+
+    /* In de list items ga ik werken met grid, de grid start hier. */
+
+    display: grid;
+    grid-template-columns: 4fr 3fr; 
+    grid-template-areas: 
+        "titel ."
+        "afbeelding tekst";
 }
 
-.kinderoverzicht > ul > ul > li > img {
-    max-width: 15%;
-    padding: 0.5em;
-    margin: 0.5em;
+.kinderoverzicht > ul > li > img {
+    max-width: 100%;
+    
+    align-self: center;
+    grid-area: afbeelding;
+}
+
+.kinderoverzicht > ul > li > p {
+    align-self: center;
+    grid-area: tekst;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    padding-top: 1em;
+}
+.kinderoverzicht > ul > li > h3 {
+    grid-area: titel;
 }
