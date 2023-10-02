@@ -363,10 +363,11 @@ body.dark .familieoverzicht .text{
 /*####################################*/
 
 .kinderoverzicht {
-    padding: 12px 60px;
+    padding: 15px 50px;
 } 
 
 .kinderoverzicht > ul {
+
     display: flex;
     overflow-x: scroll;
     list-style: none;
@@ -376,7 +377,7 @@ body.dark .familieoverzicht .text{
     background-color: #FFF;
     padding: 1em;
     margin: 1em;
-    max-width: 50%;
+    min-width: 30em;
 
     /* In de list items ga ik werken met grid, de grid start hier. */
 
@@ -399,7 +400,7 @@ body.dark .familieoverzicht .text{
 
 .kinderoverzicht > ul > li > p {
     flex-shrink: 0;
-    min-width: 20em;
+    min-width: 10em;
     align-self: center;
     grid-area: tekst;
 }
@@ -412,4 +413,42 @@ h2 {
 }
 .kinderoverzicht > ul > li > h3 {
     grid-area: titel;
+}
+
+/* Vanaf hier ga ik de scrollbar vormgeven van de website. */
+
+/* body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+    
+}
+
+body::-webkit-scrollbar-track {
+    background: purple;
+} */
+
+@media only screen and (max-width: 53em) {
+
+    .kinderoverzicht {
+        padding: 15px 25px;
+    } 
+
+    .kinderoverzicht > ul > li {
+        background-color: #FFF;
+        padding: 1em;
+        margin: 1em;
+        min-width: 15em;
+    
+        /* In de list items ga ik werken met grid, de grid start hier. */
+    
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 4fr 4fr;
+        grid-template-areas: 
+            "titel"
+            "afbeelding"
+            "tekst";
+    }
 }
