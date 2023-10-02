@@ -368,6 +368,7 @@ body.dark .familieoverzicht .text{
 
 .kinderoverzicht > ul {
     display: flex;
+    overflow-x: scroll;
     list-style: none;
 }
 
@@ -380,20 +381,25 @@ body.dark .familieoverzicht .text{
     /* In de list items ga ik werken met grid, de grid start hier. */
 
     display: grid;
-    grid-template-columns: 4fr 3fr; 
+    grid-template-columns: 1fr 3fr; 
     grid-template-areas: 
-        "titel ."
+        "titel titel"
         "afbeelding tekst";
 }
 
 .kinderoverzicht > ul > li > img {
+    width: 100%;
     max-width: 100%;
+    min-width: 8em;
+    flex-shrink: 0;
     
     align-self: center;
     grid-area: afbeelding;
 }
 
 .kinderoverzicht > ul > li > p {
+    flex-shrink: 0;
+    min-width: 20em;
     align-self: center;
     grid-area: tekst;
 }
