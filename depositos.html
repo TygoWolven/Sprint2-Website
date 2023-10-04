@@ -4,21 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    
     <!-- Link naar CSS -->
-    <link rel="stylesheet" href="./styles/familieoverzicht.css">
+    <link rel="stylesheet" href="./styles/mijnoba.css">
+    
+    <!-- Link naar boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-     <!-- Link naar boxicons -->
-     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!-- Link naar Javascript -->
+    <!-- Link naar JavaScript -->
     <script src="./scripts/script.js" defer></script>
-   
+    
     <title>Mijn.OBA</title> 
 </head>
-
-    <!-- Vanaf hier begint de code van de verkregen template! -->
-
 <body>
     <nav class="sidebar close">
         <header>
@@ -56,10 +53,10 @@
                         </a>
                     </li>
 
-                    <li class="nav-link" style="background: #FF0000; border-radius: 6px;">
-                        <a href="./familieoverzicht.html">
-                            <i class='bx bx-group icon' style="color: #FFF;"></i>
-                            <span class="text nav-text" style="color: #FFF;">Familieoverzicht</span>
+                    <li class="nav-link">
+                        <a href="./familieoverzicht.html"> 
+                            <i class='bx bx-group icon'></i>
+                            <span class="text nav-text">Familieoverzicht</span>
                         </a>
                     </li>
 
@@ -98,10 +95,10 @@
                         </a>
                     </li>
 
-                    <li class="nav-link">
+                    <li class="nav-link" style="background: #FF0000; border-radius: 6px;">
                         <a href="./depositos.html">
-                            <i class='bx bx-wallet icon' ></i>
-                            <span class="text nav-text">Deposito's</span>
+                            <i class='bx bx-wallet icon'style="color: #FFF;"></i>
+                            <span class="text nav-text" style="color: #FFF;">Deposito's</span>
                         </a>
                     </li>
 
@@ -141,39 +138,15 @@
 
     <!-- Vanaf hier begint mijn eigen code! -->
 
-    <section class="familieoverzicht">
+    <section class="home">
 
         <div class="text"><img src="./image/oba_20.png" alt="Logo Openbare School Amsterdam"></div>
-        
-        <section class="kinderoverzicht">
 
-            <h1>Familie Overzicht</h1>
-            <p>In dit overzicht kun je de activiteit van je kinderen bijhouden.</p>
+        <section class="welkominformatie">
 
-            <h2>Pieter v/d Reijden</h2>
-            <ul>
-                <li><h3>Boek 7 - Karel de meeuw</h3><p>Dit verhaal gaat over Karel, Karel de meeuw. Een eenzame meeuw. Die op een dag rond aan het vliegen was, totdat hij bij een vuurtoren aan kwam!</p><img src="./image/book-7.png" class="image"></li>
-                <li><h3>Boek 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-1.png"></li>
-                <li><h3>Boek 6</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-6.png"></li>
-                <li><h3>Boek 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-4.png"></li>
-            </ul>
-
-            <h2>Melissa v/d Reijden</h2>
-            <ul>
-                <li><h3>Boek 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-2.png"></li>
-                <li><h3>Boek 8</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-8.png"></li>
-                <li><h3>Boek 5</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-5.png"></li>
-                <li><h3>Boek 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-3.png"></li>
-            </ul>
-
-            <h2>Gertje v/d Reijden</h2>
-            <ul>
-                <li><h3>Boek 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-3.png"></li>
-                <li><h3>Boek 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-4.png"></li>
-                <li><h3>Boek 7 - Karel de meeuw</h3><p>Dit verhaal gaat over Karel, Karel de meeuw. Een eenzame meeuw. Die op een dag rond aan het vliegen was, totdat hij bij een vuurtoren aan kwam!</p><img src="./image/book-7.png"></li>
-                <li><h3>Boek 10</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><img src="./image/book-10.png"></li>
-            </ul>
-        
+            <h1>Deposito's</h1>
+            <p id="welkom1">Op deze pagina kunt u tegoed op uw pas zetten, waarmee u toekomstige boetes, leengeld, etc. kunt afrekenen.</p>
+            
         </section>
 
     </section>

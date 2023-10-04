@@ -1,3 +1,7 @@
+  /*#######################################################*/
+ /* Vanaf hier begint de code van de verkregen template!  */
+/*#######################################################*/
+
 /* Fonts being used by the oba */
 @font-face {
     font-family: AvenirRoman;
@@ -351,4 +355,40 @@ body.dark .switch::before{
 }
 body.dark .home .text{
     color: var(--text-color);
+}
+
+  /*####################################*/
+ /* Vanaf hier begint mijn eigen code! */
+/*####################################*/
+
+.welkominformatie {
+    padding: 15px 50px;
+}
+
+.welkominformatie ul {
+    margin: 1em;
+    max-width: 33em;
+}
+
+.welkominformatie ul a {
+    color: #FF0000;
+}
+
+h1 {
+    line-height: 1em;
+    font-size: 50px;
+}
+
+#welkom2 {
+    max-width: 33em;
+    margin-top: 3em;
+}
+#welkom3{
+    margin-top: 3em;
+}
+
+.copyright {
+    margin: 4em;
+    float: right;
+    font-size: 0.7em;
 }
