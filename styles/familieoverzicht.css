@@ -331,7 +331,7 @@ body.dark .switch::before{
     left: 20px;
 }
 
-.familieoverzicht{
+.family-overview{
     position: absolute;
     top: 0;
     top: 0;
@@ -342,19 +342,19 @@ body.dark .switch::before{
     transition: var(--tran-05);
 }
 
-.familieoverzicht .text{
+.family-overview .text{
     font-size: 30px;
     font-weight: 500;
     color: var(--text-color);
     padding: 12px 60px;
 }
 
-.sidebar.close ~ .familieoverzicht{
+.sidebar.close ~ .family-overview{
     left: 78px;
     height: 100vh;
     width: calc(100% - 78px);
 }
-body.dark .familieoverzicht .text{
+body.dark .family-overview .text{
     color: var(--text-color);
 }
 
@@ -362,18 +362,18 @@ body.dark .familieoverzicht .text{
  /* Vanaf hier begint mijn eigen code! */
 /*####################################*/
 
-.kinderoverzicht {
+.child-overview {
     padding: 15px 50px;
 } 
 
-.kinderoverzicht > ul {
+.child-overview > ul {
 
     display: flex;
     overflow-x: scroll;
     list-style: none;
 }
 
-.kinderoverzicht > ul > li {
+.child-overview > ul > li {
     background-color: #FFF;
     padding: 1em;
     margin: 1em;
@@ -388,7 +388,7 @@ body.dark .familieoverzicht .text{
         "afbeelding tekst";
 }
 
-.kinderoverzicht > ul > li > img {
+.child-overview > ul > li > img {
     width: 100%;
     max-width: 100%;
     min-width: 8em;
@@ -398,7 +398,7 @@ body.dark .familieoverzicht .text{
     grid-area: afbeelding;
 }
 
-.kinderoverzicht > ul > li > p {
+.child-overview > ul > li > p {
     flex-shrink: 0;
     min-width: 10em;
     align-self: center;
@@ -413,7 +413,7 @@ h2 {
     padding-top: 1em;
 }
 
-.kinderoverzicht > ul > li > h3 {
+.child-overview > ul > li > h3 {
     grid-area: titel;
 }
 
@@ -457,11 +457,11 @@ ul::-webkit-scrollbar-track {
 
 @media only screen and (max-width: 43em) {
 
-    .kinderoverzicht {
+    .child-overview {
         padding: 15px 25px;
     } 
 
-    .kinderoverzicht > ul > li {
+    .child-overview > ul > li {
         background-color: #FFF;
         padding: 1em;
         margin: 1em;
@@ -481,37 +481,15 @@ ul::-webkit-scrollbar-track {
 
 @media only screen and (max-width: 27em) {
 
-    .kinderoverzicht > ul > li {
+    .child-overview > ul > li {
         background-color: red;
     }
 
-    .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0px;
-        height: 100%;
-        width: 250px;
-        padding: 10px 14px;
-        background: var(--sidebar-color);
-        transition: var(--tran-05);
-        z-index: 100;  
-    }
-    
-    .sidebar header .toggle{
-        position: absolute;
-        top: 50%;
-        right: -25px;
-        transform: translateY(-50%) rotate(180deg);
-        height: 25px;
-        width: 25px;
-        background-color: var(--primary-color);
-        color: var(--sidebar-color);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 22px;
-        cursor: pointer;
-        transition: var(--tran-05);
+    .child-overview > ul > li {
+        background-color: #FFF;
+        padding: 1em;
+        margin: 1em;
+        min-width: 15em;
+
     }
 }

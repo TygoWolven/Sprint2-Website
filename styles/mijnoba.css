@@ -361,16 +361,16 @@ body.dark .home .text{
  /* Vanaf hier begint mijn eigen code! */
 /*####################################*/
 
-.welkominformatie {
+.welcome-info {
     padding: 15px 50px;
 }
 
-.welkominformatie ul {
+.welcome-info ul {
     margin: 1em;
     max-width: 33em;
 }
 
-.welkominformatie ul a {
+.welcome-info ul a {
     color: #FF0000;
 }
 
@@ -379,11 +379,11 @@ h1 {
     font-size: 50px;
 }
 
-#welkom2 {
+#welkom1 {
     max-width: 33em;
     margin-top: 3em;
 }
-#welkom3{
+#welkom2{
     margin-top: 3em;
 }
 
