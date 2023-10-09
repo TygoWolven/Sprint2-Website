@@ -393,7 +393,7 @@ body.dark .family-overview .text{
 
 .child-overview > ul > li > img {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%;  
     min-width: 8em;
     flex-shrink: 0;
     
@@ -462,7 +462,7 @@ button {
     border-radius: 50%;
     border: solid var(--primary-color);;
     background-color: var(--primary-color);
-    scale: 0.3;
+    scale: 0.3; 
 }
 
 /* Vanaf hier ga ik de website responsive maken op verschillende groottes. */
