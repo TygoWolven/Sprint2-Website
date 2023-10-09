@@ -86,9 +86,9 @@ body.dark{
     transition: var(--tran-05);
     z-index: 100;  
 }
-.sidebar.close{
+/* .sidebar.close{
     width: 88px;
-}
+} */
 
 /* ===== Reusable code - Here ===== */
 .sidebar li{
@@ -127,9 +127,9 @@ body.dark{
     white-space: nowrap;
     opacity: 1;
 }
-.sidebar.close .text{
+/* .sidebar.close .text{
     opacity: 0;
-}
+} */
 
 .sidebar .text-long,
 .sidebar .icon{
@@ -143,10 +143,10 @@ body.dark{
     resize: none;
     opacity: 1;
 }
-.sidebar.close .text-long{
+/* .sidebar.close .text-long{
     resize: none;
     opacity: 0;
-}
+} */
 
 /* =========================== */
 
@@ -207,9 +207,9 @@ body.dark .sidebar header .toggle{
     color: var(--text-color);
 }
 
-.sidebar.close .toggle{
+/* .sidebar.close .toggle{
     transform: translateY(-50%) rotate(0deg);
-}
+} */
 
 .sidebar .menu{
     margin-top: 18px;
@@ -349,11 +349,11 @@ body.dark .switch::before{
     padding: 12px 60px;
 }
 
-.sidebar.close ~ .family-overview{
+/* .sidebar.close ~ .family-overview{
     left: 78px;
     height: 100vh;
     width: calc(100% - 78px);
-}
+} */
 body.dark .family-overview .text{
     color: var(--text-color);
 }
@@ -361,6 +361,9 @@ body.dark .family-overview .text{
   /*####################################*/
  /* Vanaf hier begint mijn eigen code! */
 /*####################################*/
+
+
+/* In het kinderoverzicht staan redelijk wat items die ik hier individueel aanspreek. */
 
 .child-overview {
     padding: 15px 50px;
@@ -453,9 +456,22 @@ ul::-webkit-scrollbar-track {
     background-color: var(--sidebar-color);
 }
 
+button {
+    visibility: hidden;
+    padding: 2em;
+    border-radius: 50%;
+    border: solid var(--primary-color);;
+    background-color: var(--primary-color);
+    scale: 0.3;
+}
+
 /* Vanaf hier ga ik de website responsive maken op verschillende groottes. */
 
 @media only screen and (max-width: 43em) {
+
+    .family-overview{
+        left: 25px;
+    }
 
     .child-overview {
         padding: 15px 25px;
@@ -477,18 +493,17 @@ ul::-webkit-scrollbar-track {
             "afbeelding"
             "tekst";
     }
-}
 
-@media only screen and (max-width: 27em) {
-
-    .child-overview > ul > li {
-        background-color: red;
+    button {
+        visibility: visible;
     }
 
-    .child-overview > ul > li {
-        background-color: var(--sidebar-color);
-        padding: 1em;
-        margin: 1em;
-        min-width: 15em;
+    .sidebar {
+        transform: translateX(-15em);
     }
+
+    .sidebar.moving {
+        transform: translateX(0em);
+    }
+
 }
