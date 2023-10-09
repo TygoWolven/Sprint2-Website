@@ -374,11 +374,11 @@ body.dark .family-overview .text{
 }
 
 .child-overview > ul > li {
-    background-color: #FFF;
+    background-color: var(--sidebar-color);
     padding: 1em;
     margin: 1em;
     min-width: 30em;
-
+  
     /* In de list items ga ik werken met grid, de grid start hier. */
 
     display: grid;
@@ -426,14 +426,14 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     border-style: solid;
     border-width: 4px;
-    border-color: #FFF;
+    border-color: var(--sidebar-color);
     border-radius: 8px;
-    background-color: #DDD;
+    background-color: var(--toggle-color);
 }
 
 body::-webkit-scrollbar-track {
     border-radius: 6px; 
-    background-color: #FFF;
+    background-color: var(--sidebar-color);
 }
 
 ul::-webkit-scrollbar {
@@ -443,14 +443,14 @@ ul::-webkit-scrollbar {
 ul::-webkit-scrollbar-thumb {
     border-style: solid;
     border-width: 4px;
-    border-color: #FFF;
+    border-color: var(--sidebar-color);
     border-radius: 8px;
-    background-color: #DDD;
+    background-color: var(--toggle-color);
 }
 
 ul::-webkit-scrollbar-track {
     border-radius: 6px; 
-    background-color: #FFF;
+    background-color: var(--sidebar-color);
 }
 
 /* Vanaf hier ga ik de website responsive maken op verschillende groottes. */
@@ -462,7 +462,7 @@ ul::-webkit-scrollbar-track {
     } 
 
     .child-overview > ul > li {
-        background-color: #FFF;
+        background-color: var(--sidebar-color);
         padding: 1em;
         margin: 1em;
         min-width: 15em;
@@ -486,10 +486,9 @@ ul::-webkit-scrollbar-track {
     }
 
     .child-overview > ul > li {
-        background-color: #FFF;
+        background-color: var(--sidebar-color);
         padding: 1em;
         margin: 1em;
         min-width: 15em;
-
     }
 }
