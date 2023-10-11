@@ -1,5 +1,5 @@
-# Mijn oba
-Ontwerp en maak een interactieve website voor een opdrachtgever.
+# Mijn OBA
+Ontwerp en maak een interactieve familiepagina voor de OBA website.
 
 ## User Story
 > Als oba-lid wil ik op de website persoonlijke boekentips krijgen, zodat ik gestimuleerd wordt meer te lezen.
@@ -10,23 +10,30 @@ In deze sprint staat het maken van een interactieve website centraal. Voor deze 
 Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat ik leer om eerst te bouwen voor de mobiel. Ik heb voor deze sprint gekozen voor twee verschillende interacties/animaties. Dit is het in en uitklappen van de navigatie en het aanzetten van dark mode. Voor meer toegankelijkheid heb ik gekozen om een dark mode te maken (ik wilde dit ook in de vorige sprint doen). Ik heb een toggle animatie gemaakt dat als je op de knop klikt, de toggle naar rechts gaat, en wanneer je er nogmaals op klikt, de toggle weer terug naar links gaat. Voor de navigatie heb ik iets soortgelijks gemaakt. Wanneer je op de knop drukt, gaat de navigatie zichzelf inklappen waardoor je alleen nog de icoontjes ziet staan. Wanneer je weer op de knop drukt, klap de navigatie weer uit en zie je meer informatie. Hieronder zal ik de animaties laten zien:
 
 ## Desktop
-### Ingeklapt
-![desktop-ingeklapt](https://user-images.githubusercontent.com/112861033/212927779-9150f9b2-011b-43dd-ba47-8c3c65ea37a0.jpg)
-### Uitgeklapt
-![Desktop-uitgeklapt](https://user-images.githubusercontent.com/112861033/212927848-5c256b91-e435-4c51-a5ba-5bd426d3b18c.jpg)
-### Dark mode
-![Desktop-darkmode](https://user-images.githubusercontent.com/112861033/212927930-6e44242f-8d42-46d3-8e32-a46545b06c1b.jpg)
+### Familieoverzicht
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/5e08b0f8-d777-41ac-9986-2460f868ec2e)
+
+### Dark Mode
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/89ae6dbe-0ab6-44f4-9923-bd96d6d7fe13)
+
+
 
 ## Mobiel
 ### Ingeklapt
-![Mobiel-ingeklapt](https://user-images.githubusercontent.com/112861033/212928056-3f96c0a8-3702-4078-91c4-0520b942803d.jpg)
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/4f86f884-56d6-41de-8060-b02c2ebd85f7)
 ### Uitgeklapt
-![mobiel-uitgeklapt](https://user-images.githubusercontent.com/112861033/212928073-c6c12b5c-a0d9-49b9-a7c3-673bf10715e1.jpg)
-### Dark mode
-![Mobiel-darkmode](https://user-images.githubusercontent.com/112861033/212928093-b538ef48-fd68-4a00-ba4b-731123d6be4b.jpg)
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/b023f36c-6aae-4544-bad5-25a5884857ee)
+### Dark Mode Ingeklapt
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/3112a2d0-595c-4c45-ab08-b1caca4fb36b)
+### Dark Mode Uitgeklapt
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/0da227fd-5d37-4829-83e4-c811300b7595)
+
+
+
+
 
 ## Kenmerken
-Bekijk even mijn wiki! Ik heb bij de bouwfase meer uitleg gegeven over de code: [🔨 Bouwen](https://github.com/Amberhva/fix-the-flow-interactive-website/wiki/%F0%9F%94%A8-Bouwen)
+Bekijk even mijn wiki! In de [wiki](https://github.com/TygoWolven/the-client-website/wiki) is meer te zien over het werkproces! 
 
 ## Licentie
 
