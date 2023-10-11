@@ -86,9 +86,9 @@ body.dark{
     transition: var(--tran-05);
     z-index: 100;  
 }
-.sidebar.close{
+/* .sidebar.close{
     width: 88px;
-}
+} */
 
 /* ===== Reusable code - Here ===== */
 .sidebar li{
@@ -127,9 +127,9 @@ body.dark{
     white-space: nowrap;
     opacity: 1;
 }
-.sidebar.close .text{
+/* .sidebar.close .text{
     opacity: 0;
-}
+} */
 
 .sidebar .text-long,
 .sidebar .icon{
@@ -143,10 +143,10 @@ body.dark{
     resize: none;
     opacity: 1;
 }
-.sidebar.close .text-long{
+/* .sidebar.close .text-long{
     resize: none;
     opacity: 0;
-}
+} */
 
 /* =========================== */
 
@@ -207,9 +207,9 @@ body.dark .sidebar header .toggle{
     color: var(--text-color);
 }
 
-.sidebar.close .toggle{
+/* .sidebar.close .toggle{
     transform: translateY(-50%) rotate(0deg);
-}
+} */
 
 .sidebar .menu{
     margin-top: 18px;
@@ -348,11 +348,11 @@ body.dark .switch::before{
     padding: 12px 60px;
 }
 
-.sidebar.close ~ .home{
+/* .sidebar.close ~ .home{
     left: 78px;
     height: 100vh;
     width: calc(100% - 78px);
-}
+} */
 body.dark .home .text{
     color: var(--text-color);
 }
@@ -389,6 +389,73 @@ h1 {
 
 .copyright {
     margin: 4em;
+    padding-bottom: 2em;
     float: right;
     font-size: 0.7em;
+}
+
+button {
+    visibility: hidden;
+    padding: 2em;
+    border-radius: 50%;
+    border: solid var(--primary-color);
+    background-color: var(--primary-color);
+    scale: 0.175; 
+    position: absolute;
+    top: -50px;
+    left: 200px;
+    cursor: pointer;
+}
+
+/* Vanaf hier ga ik de website responsive maken op verschillende groottes. */
+
+@media only screen and (max-width: 43em) {
+
+    .home {
+        left: 25px;
+        width: 100%;
+    }
+
+    .family-overview{
+        left: 25px;
+        width: 100%;
+    }
+
+    .child-overview {
+        padding: 15px 25px;
+    } 
+
+    .child-overview > ul > li {
+        background-color: var(--sidebar-color);
+        padding: 1em;
+        margin: 1em;
+        min-width: 15em;
+    
+        /* In de list items ga ik werken met grid, de grid start hier. */
+    
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 4fr 4fr;
+        grid-template-areas: 
+            "titel"
+            "afbeelding"
+            "tekst";
+    }
+    
+    .child-overview > ul > li > ul > li:nth-of-type(2) {
+        height: 130px;
+    }
+
+    button {
+        visibility: visible;
+    }
+
+    .sidebar {
+        transform: translateX(-15em);
+    }
+
+    .sidebar.moving {
+        transform: translateX(0em);
+    }
+
 }

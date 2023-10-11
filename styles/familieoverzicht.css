@@ -366,7 +366,7 @@ body.dark .family-overview .text{
 /* In het kinderoverzicht staan redelijk wat items die ik hier individueel aanspreek. */
 
 .child-overview {
-    padding: 15px 50px;
+    padding: 30px 50px 50px 30px;
 } 
 
 .child-overview > ul {
@@ -381,6 +381,7 @@ body.dark .family-overview .text{
     padding: 1em;
     margin: 1em;
     min-width: 30em;
+    
   
     /* In de list items ga ik werken met grid, de grid start hier. */
 
@@ -417,12 +418,17 @@ body.dark .family-overview .text{
     margin: 0.25em
 }
 
+.child-overview > ul > li > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
 .child-overview > ul > li > ul > li:nth-of-type(2) {
+    height: 80px;
     font-style: italic;
 }
 
 .child-overview > ul > li > ul > li:nth-of-type(3) {
-    margin-top: 5em;
     padding: 0.5em;
     border-radius: 10px;
     color: var(--sidebar-color);
@@ -443,10 +449,11 @@ button {
     border-radius: 50%;
     border: solid var(--primary-color);;
     background-color: var(--primary-color);
-    scale: 0.2; 
+    scale: 0.175; 
     position: absolute;
     top: -50px;
     left: 200px;
+    cursor: pointer;
 }
 
 /* Vanaf hier ga ik de scrollbar vormgeven van de website. */
@@ -491,6 +498,7 @@ ul::-webkit-scrollbar-track {
 
     .family-overview{
         left: 25px;
+        width: 100%;
     }
 
     .child-overview {
@@ -512,6 +520,10 @@ ul::-webkit-scrollbar-track {
             "titel"
             "afbeelding"
             "tekst";
+    }
+    
+    .child-overview > ul > li > ul > li:nth-of-type(2) {
+        height: 130px;
     }
 
     button {

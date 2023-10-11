@@ -40,15 +40,16 @@ h1 {
 }
 
 ul {    
-    display: inline-block;
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    justify-content: center;
 }
 
 li {
+    width: 25%;
     padding: 1em;
     margin: 1em;
-    display: inline;
     text-align: center;
     background-color: #F6F5FF;
 }
