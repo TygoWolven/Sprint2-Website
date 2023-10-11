@@ -14,16 +14,23 @@ Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat 
 ![image](https://github.com/TygoWolven/the-client-website/assets/144010858/5e08b0f8-d777-41ac-9986-2460f868ec2e)
 
 ### Dark Mode
-![Desktop-uitgeklapt](https://user-images.githubusercontent.com/112861033/212927848-5c256b91-e435-4c51-a5ba-5bd426d3b18c.jpg)
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/89ae6dbe-0ab6-44f4-9923-bd96d6d7fe13)
+
 
 
 ## Mobiel
 ### Ingeklapt
-![Mobiel-ingeklapt](https://user-images.githubusercontent.com/112861033/212928056-3f96c0a8-3702-4078-91c4-0520b942803d.jpg)
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/4f86f884-56d6-41de-8060-b02c2ebd85f7)
 ### Uitgeklapt
-![mobiel-uitgeklapt](https://user-images.githubusercontent.com/112861033/212928073-c6c12b5c-a0d9-49b9-a7c3-673bf10715e1.jpg)
-### Dark mode
-![Mobiel-darkmode](https://user-images.githubusercontent.com/112861033/212928093-b538ef48-fd68-4a00-ba4b-731123d6be4b.jpg)
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/b023f36c-6aae-4544-bad5-25a5884857ee)
+### Dark mode Ingeklapt
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/3112a2d0-595c-4c45-ab08-b1caca4fb36b)
+### Dark mode Uitgeklapt
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/0da227fd-5d37-4829-83e4-c811300b7595)
+
+
+
+
 
 ## Kenmerken
 Bekijk even mijn wiki! Ik heb bij de bouwfase meer uitleg gegeven over de code: [🔨 Bouwen](https://github.com/Amberhva/fix-the-flow-interactive-website/wiki/%F0%9F%94%A8-Bouwen)
