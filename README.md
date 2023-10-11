@@ -1,5 +1,5 @@
-# Mijn oba
-Ontwerp en maak een interactieve website voor een opdrachtgever.
+# Mijn OBA
+Ontwerp en maak een interactieve familiepagina voor de OBA website.
 
 ## User Story
 > Als oba-lid wil ik op de website persoonlijke boekentips krijgen, zodat ik gestimuleerd wordt meer te lezen.
