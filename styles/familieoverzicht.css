@@ -44,6 +44,7 @@
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
     --text-color: #707070;
+    --text-color-section: #000;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;   
@@ -68,10 +69,11 @@ body{
 body.dark{
     --body-color: #18191a;
     --sidebar-color: #242526;
-    --primary-color: #3a3b3c;
+    --primary-color: #FF0000;
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
+    --text-color-section: #ccc;
 }
 
 /* ===== Sidebar ===== */
@@ -366,6 +368,7 @@ body.dark .family-overview .text{
 /* In het kinderoverzicht staan redelijk wat items die ik hier individueel aanspreek. */
 
 .child-overview {
+    color: var(--text-color-section);
     padding: 30px 30px 50px 30px;
 } 
 
@@ -454,6 +457,11 @@ button {
     top: -50px;
     left: 200px;
     cursor: pointer;
+}
+
+#user-name {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 /* Vanaf hier ga ik de scrollbar vormgeven van de website. */

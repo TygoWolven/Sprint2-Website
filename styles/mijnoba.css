@@ -408,6 +408,11 @@ button {
     cursor: pointer;
 }
 
+#user-name {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 /* Vanaf hier ga ik de website responsive maken op verschillende groottes. */
 
 @media only screen and (max-width: 43em) {
