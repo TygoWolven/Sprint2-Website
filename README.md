@@ -10,12 +10,12 @@ In deze sprint staat het maken van een interactieve website centraal. Voor deze 
 Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat ik leer om eerst te bouwen voor de mobiel. Ik heb voor deze sprint gekozen voor twee verschillende interacties/animaties. Dit is het in en uitklappen van de navigatie en het aanzetten van dark mode. Voor meer toegankelijkheid heb ik gekozen om een dark mode te maken (ik wilde dit ook in de vorige sprint doen). Ik heb een toggle animatie gemaakt dat als je op de knop klikt, de toggle naar rechts gaat, en wanneer je er nogmaals op klikt, de toggle weer terug naar links gaat. Voor de navigatie heb ik iets soortgelijks gemaakt. Wanneer je op de knop drukt, gaat de navigatie zichzelf inklappen waardoor je alleen nog de icoontjes ziet staan. Wanneer je weer op de knop drukt, klap de navigatie weer uit en zie je meer informatie. Hieronder zal ik de animaties laten zien:
 
 ## Desktop
-### Ingeklapt
-![desktop-ingeklapt](https://user-images.githubusercontent.com/112861033/212927779-9150f9b2-011b-43dd-ba47-8c3c65ea37a0.jpg)
-### Uitgeklapt
+### Familieoverzicht
+![image](https://github.com/TygoWolven/the-client-website/assets/144010858/5e08b0f8-d777-41ac-9986-2460f868ec2e)
+
+### Dark Mode
 ![Desktop-uitgeklapt](https://user-images.githubusercontent.com/112861033/212927848-5c256b91-e435-4c51-a5ba-5bd426d3b18c.jpg)
-### Dark mode
-![Desktop-darkmode](https://user-images.githubusercontent.com/112861033/212927930-6e44242f-8d42-46d3-8e32-a46545b06c1b.jpg)
+
 
 ## Mobiel
 ### Ingeklapt
