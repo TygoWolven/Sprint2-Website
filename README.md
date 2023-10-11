@@ -23,9 +23,9 @@ Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat 
 ![image](https://github.com/TygoWolven/the-client-website/assets/144010858/4f86f884-56d6-41de-8060-b02c2ebd85f7)
 ### Uitgeklapt
 ![image](https://github.com/TygoWolven/the-client-website/assets/144010858/b023f36c-6aae-4544-bad5-25a5884857ee)
-### Dark mode Ingeklapt
+### Dark Mode Ingeklapt
 ![image](https://github.com/TygoWolven/the-client-website/assets/144010858/3112a2d0-595c-4c45-ab08-b1caca4fb36b)
-### Dark mode Uitgeklapt
+### Dark Mode Uitgeklapt
 ![image](https://github.com/TygoWolven/the-client-website/assets/144010858/0da227fd-5d37-4829-83e4-c811300b7595)
 
 
@@ -33,7 +33,7 @@ Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat 
 
 
 ## Kenmerken
-Bekijk even mijn wiki! Ik heb bij de bouwfase meer uitleg gegeven over de code: [🔨 Bouwen](https://github.com/Amberhva/fix-the-flow-interactive-website/wiki/%F0%9F%94%A8-Bouwen)
+Bekijk even mijn wiki! In de wiki is meer te zien over het werkproces! https://github.com/TygoWolven/the-client-website/wiki
 
 ## Licentie
 
