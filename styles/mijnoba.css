@@ -377,6 +377,7 @@ body.dark .home .text{
 h1 {
     line-height: 1em;
     font-size: 50px;
+    margin-bottom: 0.25em;
 }
 
 #welkom1 {
