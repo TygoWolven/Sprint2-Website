@@ -408,6 +408,27 @@ body.dark .family-overview .text{
     grid-area: tekst;
 }
 
+.child-overview > ul > li > h3 {
+    grid-area: titel;
+}
+
+.child-overview > ul > li > ul > li {
+    list-style: none;
+    margin: 0.25em
+}
+
+.child-overview > ul > li > ul > li:nth-of-type(2) {
+    font-style: italic;
+}
+
+.child-overview > ul > li > ul > li:nth-of-type(3) {
+    margin-top: 5em;
+    padding: 0.5em;
+    border-radius: 10px;
+    color: var(--sidebar-color);
+    background-color: var(--primary-color);
+}
+
 h1 {
     line-height: 1em;
     font-size: 50px;
@@ -416,8 +437,16 @@ h2 {
     padding-top: 1em;
 }
 
-.child-overview > ul > li > h3 {
-    grid-area: titel;
+button {
+    visibility: hidden;
+    padding: 2em;
+    border-radius: 50%;
+    border: solid var(--primary-color);;
+    background-color: var(--primary-color);
+    scale: 0.2; 
+    position: absolute;
+    top: -50px;
+    left: 200px;
 }
 
 /* Vanaf hier ga ik de scrollbar vormgeven van de website. */
@@ -454,15 +483,6 @@ ul::-webkit-scrollbar-thumb {
 ul::-webkit-scrollbar-track {
     border-radius: 6px; 
     background-color: var(--sidebar-color);
-}
-
-button {
-    visibility: hidden;
-    padding: 2em;
-    border-radius: 50%;
-    border: solid var(--primary-color);;
-    background-color: var(--primary-color);
-    scale: 0.3; 
 }
 
 /* Vanaf hier ga ik de website responsive maken op verschillende groottes. */
