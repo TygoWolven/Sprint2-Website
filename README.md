@@ -33,7 +33,7 @@ Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat 
 
 
 ## Kenmerken
-Bekijk even mijn wiki! In de wiki is meer te zien over het werkproces! https://github.com/TygoWolven/the-client-website/wiki
+Bekijk even mijn wiki! In de [wiki](https://github.com/TygoWolven/the-client-website/wiki) is meer te zien over het werkproces! 
 
 ## Licentie
 
