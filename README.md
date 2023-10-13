@@ -2,7 +2,7 @@
 Ontwerp en maak een interactieve familiepagina voor de OBA website.
 
 ## User Story
-> Als oba-lid wil ik op de website persoonlijke boekentips krijgen, zodat ik gestimuleerd wordt meer te lezen.
+> Als oba-account-beheerder wil ik op de website een familieoverzicht waarin ik de leesactiviteit van mijn kinderen kan bijhouden. 
 
 ## Beschrijving
 In deze sprint staat het maken van een interactieve website centraal. Voor deze opdracht kies je een user Story waarin een gebruiker iets moet doen, zoals het toevoegen van informatie aan een agenda of stap voor stap door een vragenlijst klikken, een chat-formulier of bijvoorbeeld een filter systeem. Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is.
