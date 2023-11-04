@@ -360,12 +360,12 @@ body.dark .family-overview .text{
     color: var(--text-color);
 }
 
-  /*####################################*/
- /* Vanaf hier begint mijn eigen code! */
-/*####################################*/
+  /*#############################################################*/
+ /* Vanaf hier begint mijn eigen code van het Familieoverzicht! */
+/*#############################################################*/
 
 
-/* In het kinderoverzicht staan redelijk wat items die ik hier individueel aanspreek. */
+/* In het kinderoverzicht staan redelijk wat items die ik hier individueel aanspreek met behulp van selectieve selectoren. */
 
 .child-overview {
     color: var(--text-color-section);
@@ -386,7 +386,7 @@ body.dark .family-overview .text{
     min-width: 30em;
     box-shadow: 2px 2px 10px rgb(175, 175, 175);
     
-    /* In de list items ga ik werken met grid, de grid start hier. */
+    /* In de list items ga ik werken met grid, de grid start hier. Dit doe ik zodat ik alle elementen juist kan positioneren ter opzichte van elkaar.*/
 
     display: grid;
     grid-template-columns: 1fr 3fr; 
@@ -464,7 +464,7 @@ button {
     color: var(--text-color);
 }
 
-/* Vanaf hier ga ik de scrollbar vormgeven van de website. */
+/* Vanaf hier ga ik de scrollbar vormgeven van de website, om zo de stijl van de rest te matchen. */
 
 body::-webkit-scrollbar {
     visibility: hidden;
@@ -488,7 +488,7 @@ ul::-webkit-scrollbar-track {
     box-shadow: 2px 2px 10px rgb(175, 175, 175);
 }
 
-/* Vanaf hier ga ik de website responsive maken op verschillende groottes. */
+/* De website moet ook responsive zijn voor verschillende schermen, dat proces begint hier. */
 
 @media only screen and (max-width: 50em) {
 
@@ -535,3 +535,7 @@ ul::-webkit-scrollbar-track {
     }
 
 }
+
+  /*#################################*/
+ /* Dit is het einde van mijn code! */
+/*#################################*/
